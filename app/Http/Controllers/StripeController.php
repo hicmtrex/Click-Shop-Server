@@ -17,8 +17,8 @@ class StripeController extends Controller
         $price = $order->totalPrice;
         $price = $price * 100;
         $checkout = $stripe->checkout->sessions->create([
-            'success_url' => "http://localhost:8000/api/pay/" . $order->_id,
-            'cancel_url' => "http://localhost:3000",
+            'success_url' => "https://click-shop.herokuapp.com/api/pay/" . $order->_id,
+            'cancel_url' => "https://click-shop-client.vercel.app",
             'line_items' => [
                 [
                     'price_data' => [
@@ -40,11 +40,11 @@ class StripeController extends Controller
     {
 
         $order = Order::find($id);
-        
+
         if ($order) {
             $order->is_paid = true;
             $order->save();
-            return  redirect('http://localhost:3000/auth/profile');
+            return  redirect('https://click-shop-client.vercel.app/auth/profile');
         }
     }
 
