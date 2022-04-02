@@ -27,7 +27,7 @@ class ProductController extends Controller
 
     public function few_products()
     {
-        return Product::all()->take(4);
+        return Product::all()->random(4);
     }
 
 
