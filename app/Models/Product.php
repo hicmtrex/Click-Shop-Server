@@ -4,9 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Support\Facades\Storage;
-use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model as EloquentModel;
 
-class Product extends Eloquent
+class Product extends EloquentModel
 {
     use HasFactory;
     protected $connection = 'mongodb';

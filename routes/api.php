@@ -51,7 +51,7 @@ Route::get('/products_filter/{category}', [ProductController::class, 'category']
 
 Route::get('/sessions/{id}', [StripeController::class, 'get_session']);
 
-Route::get('/products/few', [ProductController::class, 'few_products']);
+Route::get('/products_few', [ProductController::class, 'few_products']);
 
 Route::post('/users/register', [AuthController::class, 'register']);
 Route::post('/users/login', [AuthController::class, 'login']);
