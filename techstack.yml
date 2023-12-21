@@ -1,0 +1,3201 @@
+repo_name: hicmtrex/Click-Shop-Server
+report_id: 7cd04ab0ce34cbf6d0c242e6dfeddff8
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-21T15:41:38+00:00'
+requested_by: invalid-email-address
+provider: github
+branch: main
+detected_tools_count: 269
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: vendor/symfony/polyfill-ctype/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source: vendor/symfony/polyfill-ctype/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 9.4.1
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 23:14:02.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: Symfony
+  description: A PHP full-stack web framework
+  website_url: http://symfony.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Twig
+  description: A flexible, fast, and secure template engine
+  website_url: https://twig.symfony.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source: vendor/league/flysystem/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source: vendor/jenssegers/mongodb/docker-compose.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: CouchDB
+  description: HTTP + JSON document database with Map Reduce views and peer-based
+    replication
+  website_url: http://couchdb.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1042/default_86434292d1c55e5f3a3256ca2bc6e2ea62eaca83.jpg
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Doctrine 2
+  description: An object-relational mapper (ORM) for PHP 5.3.2+ that provides transparent
+    persistence for PHP objects
+  website_url: http://www.doctrine-project.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1232/_BKTHxZk.png
+  detection_source: vendor/ramsey/uuid/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: app/Models/Order.php
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: vendor/jenssegers/mongodb/docker-compose.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source: vendor/jean85/pretty-package-versions/codecov.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Composer
+  description: Dependency Manager for PHP
+  website_url: https://getcomposer.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/1688/New_Project__65_.png
+  detection_source: vendor/jenssegers/mongodb/Dockerfile
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: vendor/jenssegers/mongodb/Dockerfile
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source: vendor/jenssegers/mongodb/docker-compose.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Graylog
+  description: Open source log management that actually works
+  website_url: https://www.graylog.org/
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/4392/_HU28D42.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: HHVM (HipHop Virtual Machine)
+  description: An open-source virtual machine designed for executing programs written
+    in Hack and PHP
+  website_url: http://hhvm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine
+  image_url: https://img.stackshare.io/service/1207/WtSNwHwK.png
+  detection_source: vendor/sebastian/environment/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: vendor/symfony/polyfill-ctype/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: PHPStan
+  description: PHP Static Analysis Tool - discover bugs in your code without running
+    it!
+  website_url: https://github.com/phpstan/phpstan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/8333/phpst.png
+  detection_source: vendor/dflydev/dot-access-data/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.18
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: PhpSpec
+  description: A  toolset for behavior driven development
+  website_url: http://www.phpspec.net/en/latest/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Scrutinizer
+  description: Continuous inspection platform - improve code quality and find bugs
+    before they hit production
+  website_url: https://scrutinizer-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2017/a5b5e5e6414e2c07bef76c9d2a29cd46.png
+  detection_source: vendor/dflydev/dot-access-data/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source: vendor/league/flysystem/docker-compose.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Terraform Registry
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://registry.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source: vendor/league/flysystem/docker-compose.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: vendor/hamcrest/hamcrest-php/.travis.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: ElasticHosts Cloud Servers
+  description: Cloud hosting that's easy to use when you need scalable, flexible VPS
+    capacity on demand
+  website_url: https://www.elastichosts.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Cloud Hosting
+  image_url: https://img.stackshare.io/service/21/Br4cEBV6.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source: vendor/league/flysystem/docker-compose.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Context.IO
+  description: A REST email API that makes it easy and fast to integrate your user's
+    email data in your application.
+  website_url: http://context.io
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Email API
+  image_url: https://img.stackshare.io/service/240/mPMj_ee5.png
+  detection_source: vendor/league/flysystem/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: public/robots.txt
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source: vendor/jenssegers/mongodb/docker-compose.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Monolog
+  website_url: https://github.com/Seldaek/monolog
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Phpmig
+  website_url: https://github.com/davedevelopment/phpmig
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/1855/61351.jpeg
+  detection_source: vendor/league/flysystem/docker-compose.yml
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: SwiftMailer
+  description: Allows you to keep up with Symfony news in a twitter-like way.
+  website_url: http://swiftmailer.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/1815/logosf_positif_03_icon_normal.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source: vendor/laravel/sail/runtimes/7.4/Dockerfile
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: aws/aws-sdk-php
+  description: AWS SDK for PHP - Use Amazon Web Services in your PHP project
+  package_url: https://packagist.org/aws/aws-sdk-php
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: bamarni/composer-bin-plugin
+  description: No conflicts for your bin dependencies
+  package_url: https://packagist.org/bamarni/composer-bin-plugin
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/fakerphp/faker/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: brianium/paratest
+  description: Parallel testing for PHP
+  package_url: https://packagist.org/brianium/paratest
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: cebe/markdown
+  description: A super fast, highly extensible markdown parser for PHP
+  package_url: https://packagist.org/cebe/markdown
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/commonmark/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: composer/semver
+  description: Semver library that offers utilities
+  package_url: https://packagist.org/composer/semver
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/flysystem/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: dealerdirect/phpcodesniffer-composer-installer
+  description: PHP_CodeSniffer Standards Composer Installer Plugin
+  package_url: https://packagist.org/dealerdirect/phpcodesniffer-composer-installer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/doctrine/instantiator/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: dflydev/dot-access-data
+  description: Given a deep data structure, access data by dot notation
+  package_url: https://packagist.org/dflydev/dot-access-data
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/dflydev/dot-access-data/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/annotations
+  description: Docblock Annotations Parser
+  package_url: https://packagist.org/doctrine/annotations
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/ramsey/uuid/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/coding-standard
+  description: The Doctrine Coding Standard is a set of PHPCS rules applied to all
+    Doctrine projects
+  package_url: https://packagist.org/doctrine/coding-standard
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/doctrine/inflector/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/collections
+  description: PHP Doctrine Collections library that adds additional functionality
+    on top of PHP arrays
+  package_url: https://packagist.org/doctrine/collections
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/myclabs/deep-copy/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/common
+  description: PHP Doctrine Common project is a library that provides additional functionality
+    that other Doctrine projects depend on such as better reflection support
+  package_url: https://packagist.org/doctrine/common
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/myclabs/deep-copy/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/couchdb
+  description: CouchDB Client
+  package_url: https://packagist.org/doctrine/couchdb
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/dbal
+  description: Powerful PHP database abstraction layer
+  package_url: https://packagist.org/doctrine/dbal
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/jenssegers/mongodb/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/inflector
+  description: PHP Doctrine Inflector is a small library that can perform string manipulations
+    with regard to upper/lowercase and singular/plural forms of words
+  package_url: https://packagist.org/doctrine/inflector
+  version: 2.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/doctrine/inflector/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/instantiator
+  description: A small
+  package_url: https://packagist.org/doctrine/instantiator
+  version: 1.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/doctrine/instantiator/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/lexer
+  description: PHP Doctrine Lexer parser library that can be used in Top-Down
+  package_url: https://packagist.org/doctrine/lexer
+  version: 1.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/doctrine/lexer/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/orm
+  description: Object-Relational-Mapper for PHP
+  package_url: https://packagist.org/doctrine/orm
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/fakerphp/faker/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: doctrine/persistence
+  description: The Doctrine Persistence project is a set of shared interfaces and
+    functionality that the different Doctrine object mappers share
+  package_url: https://packagist.org/doctrine/persistence
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/fakerphp/faker/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: dragonmantank/cron-expression
+  description: 'CRON for PHP: Calculate the next or previous run date and determine
+    if a CRON expression is due'
+  package_url: https://packagist.org/dragonmantank/cron-expression
+  version: 3.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/dragonmantank/cron-expression/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: egulias/email-validator
+  description: A library for validating emails against several RFCs
+  package_url: https://packagist.org/egulias/email-validator
+  version: 3.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/egulias/email-validator/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: elasticsearch/elasticsearch
+  description: PHP Client for Elasticsearch
+  package_url: https://packagist.org/elasticsearch/elasticsearch
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: erusev/parsedown
+  description: Parser for Markdown
+  package_url: https://packagist.org/erusev/parsedown
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/commonmark/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: facade/ignition
+  description: A beautiful error page for Laravel applications
+  package_url: https://packagist.org/facade/ignition
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/facade/ignition-contracts/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: facade/ignition-contracts
+  description: Solution contracts for Ignition
+  package_url: https://packagist.org/facade/ignition-contracts
+  version: 1.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/facade/ignition-contracts/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: filp/whoops
+  description: Php error handling for cool kids
+  package_url: https://packagist.org/filp/whoops
+  version: 2.14.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/filp/whoops/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: friendsofphp/php-cs-fixer
+  description: A tool to automatically fix PHP code style
+  package_url: https://packagist.org/friendsofphp/php-cs-fixer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/facade/ignition-contracts/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: fzaninotto/faker
+  description: Faker is a PHP library that generates fake data for you
+  package_url: https://packagist.org/fzaninotto/faker
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/fakerphp/faker/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: google/cloud
+  description: Google Cloud Client Library
+  package_url: https://packagist.org/google/cloud
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/flysystem/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: google/cloud-storage
+  description: Cloud Storage Client for PHP
+  package_url: https://packagist.org/google/cloud-storage
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/flysystem/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: graylog2/gelf-php
+  description: A php implementation to send log-messages to a GELF compatible backend
+    like Graylog2
+  package_url: https://packagist.org/graylog2/gelf-php
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 7.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: guzzlehttp/promises
+  description: Guzzle promises library
+  package_url: https://packagist.org/guzzlehttp/promises
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: guzzlehttp/psr7
+  description: PSR-7 message implementation that also provides common utility methods
+  package_url: https://packagist.org/guzzlehttp/psr7
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: guzzlehttp/ringphp
+  description: Provides a simple API and specification that abstracts away the details
+    of HTTP into a single PHP function
+  package_url: https://packagist.org/guzzlehttp/ringphp
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/flysystem/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: hamcrest/hamcrest-php
+  description: This is the PHP port of Hamcrest Matchers
+  package_url: https://packagist.org/hamcrest/hamcrest-php
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/hamcrest/hamcrest-php/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: hoa/console
+  description: The Hoa\Console library
+  package_url: https://packagist.org/hoa/console
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/psy/psysh/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: http-interop/http-factory
+  description: Common interface for HTTP message factories
+  package_url: https://packagist.org/http-interop/http-factory
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/guzzlehttp/psr7/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/auth
+  description: The Illuminate Auth package
+  package_url: https://packagist.org/illuminate/auth
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/broadcasting
+  description: The Illuminate Broadcasting package
+  package_url: https://packagist.org/illuminate/broadcasting
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/bus
+  description: The Illuminate Bus package
+  package_url: https://packagist.org/illuminate/bus
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/cache
+  description: The Illuminate Cache package
+  package_url: https://packagist.org/illuminate/cache
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/config
+  description: The Illuminate Config package
+  package_url: https://packagist.org/illuminate/config
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/console
+  description: The Illuminate Console package
+  package_url: https://packagist.org/illuminate/console
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/container
+  description: The Illuminate Container package
+  package_url: https://packagist.org/illuminate/container
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/jenssegers/mongodb/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/contracts
+  description: The Illuminate Contracts package
+  package_url: https://packagist.org/illuminate/contracts
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/cookie
+  description: The Illuminate Cookie package
+  package_url: https://packagist.org/illuminate/cookie
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/database
+  description: The Illuminate Database package
+  package_url: https://packagist.org/illuminate/database
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/jenssegers/mongodb/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/encryption
+  description: The Illuminate Encryption package
+  package_url: https://packagist.org/illuminate/encryption
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/events
+  description: The Illuminate Events package
+  package_url: https://packagist.org/illuminate/events
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/jenssegers/mongodb/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/filesystem
+  description: The Illuminate Filesystem package
+  package_url: https://packagist.org/illuminate/filesystem
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/hashing
+  description: The Illuminate Hashing package
+  package_url: https://packagist.org/illuminate/hashing
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/http
+  description: The Illuminate Http package
+  package_url: https://packagist.org/illuminate/http
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/log
+  description: The Illuminate Log package
+  package_url: https://packagist.org/illuminate/log
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/mail
+  description: The Illuminate Mail package
+  package_url: https://packagist.org/illuminate/mail
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/notifications
+  description: The Illuminate Notifications package
+  package_url: https://packagist.org/illuminate/notifications
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/pagination
+  description: The Illuminate Pagination package
+  package_url: https://packagist.org/illuminate/pagination
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/pipeline
+  description: The Illuminate Pipeline package
+  package_url: https://packagist.org/illuminate/pipeline
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/queue
+  description: The Illuminate Queue package
+  package_url: https://packagist.org/illuminate/queue
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/redis
+  description: The Illuminate Redis package
+  package_url: https://packagist.org/illuminate/redis
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/routing
+  description: The Illuminate Routing package
+  package_url: https://packagist.org/illuminate/routing
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/session
+  description: The Illuminate Session package
+  package_url: https://packagist.org/illuminate/session
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/support
+  description: The Illuminate Support package
+  package_url: https://packagist.org/illuminate/support
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/jenssegers/mongodb/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/translation
+  description: The Illuminate Translation package
+  package_url: https://packagist.org/illuminate/translation
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/validation
+  description: The Illuminate Validation package
+  package_url: https://packagist.org/illuminate/validation
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: illuminate/view
+  description: The Illuminate View package
+  package_url: https://packagist.org/illuminate/view
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: jangregor/phpstan-prophecy
+  description: Provides a phpstan/phpstan extension for phpspec/prophecy
+  package_url: https://packagist.org/jangregor/phpstan-prophecy
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/ramsey/collection/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: jean85/pretty-package-versions
+  description: A library to get pretty versions strings of installed dependencies
+  package_url: https://packagist.org/jean85/pretty-package-versions
+  version: 2.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/jean85/pretty-package-versions/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: jenssegers/mongodb
+  description: A MongoDB based Eloquent model and Query builder for Laravel
+  package_url: https://packagist.org/jenssegers/mongodb
+  version: 3.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: kylekatarnls/multi-tester
+  description: Test your package change inside other packages
+  package_url: https://packagist.org/kylekatarnls/multi-tester
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/nesbot/carbon/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 9.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 23:14:02.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 23:14:02.000000000 Z
+- name: league/commonmark
+  description: Highly-extensible PHP Markdown parser which fully supports the CommonMark
+    spec and GitHub-Flavored Markdown
+  package_url: https://packagist.org/league/commonmark
+  version: 2.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: league/flysystem
+  description: File storage abstraction for PHP
+  package_url: https://packagist.org/league/flysystem
+  version: 3.0.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: league/flysystem-aws-s3-v3
+  description: AWS S3 filesystem adapter for Flysystem
+  package_url: https://packagist.org/league/flysystem-aws-s3-v3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: league/flysystem-sftp
+  description: SFTP filesystem adapter for Flysystem
+  package_url: https://packagist.org/league/flysystem-sftp
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: michelf/php-markdown
+  description: PHP Markdown
+  package_url: https://packagist.org/michelf/php-markdown
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/commonmark/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: microsoft/azure-storage
+  description: This project provides a set of PHP client libraries that make it easy
+    to access Microsoft Azure storage APIs
+  package_url: https://packagist.org/microsoft/azure-storage
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/flysystem/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: mongodb/mongodb
+  description: MongoDB driver library
+  package_url: https://packagist.org/mongodb/mongodb
+  version: 1.11.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/jenssegers/mongodb/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: monolog/monolog
+  description: Sends your logs to files
+  package_url: https://packagist.org/monolog/monolog
+  version: 2.3.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: moontoast/math
+  description: A mathematics library
+  package_url: https://packagist.org/moontoast/math
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/ramsey/uuid/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: mtdowling/cron-expression
+  description: 'CRON for PHP: Calculate the next or previous run date and determine
+    if a CRON expression is due'
+  package_url: https://packagist.org/mtdowling/cron-expression
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/dragonmantank/cron-expression/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: myclabs/deep-copy
+  description: Create deep copies
+  package_url: https://packagist.org/myclabs/deep-copy
+  version: 1.11.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/myclabs/deep-copy/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: nesbot/carbon
+  description: An API extension for DateTime that supports 281 different languages
+  package_url: https://packagist.org/nesbot/carbon
+  version: 2.57.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: nette/di
+  description: "\U0001F48E Nette Dependency Injection Container: Flexible"
+  package_url: https://packagist.org/nette/di
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/nette/utils/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: nette/schema
+  description: "\U0001F4D0 Nette Schema: validating data structures against a given
+    Schema"
+  package_url: https://packagist.org/nette/schema
+  version: 1.2.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/league/config/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: nette/tester
+  description: 'Nette Tester: enjoyable unit testing in PHP with code coverage reporter'
+  package_url: https://packagist.org/nette/tester
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/nette/schema/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: nette/utils
+  description: "\U0001F6E0 Nette Utils: lightweight utilities for string &amp; array
+    manipulation"
+  package_url: https://packagist.org/nette/utils
+  version: 3.2.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/nette/schema/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: nikic/php-parser
+  description: A PHP parser written in PHP
+  package_url: https://packagist.org/nikic/php-parser
+  version: 4.13.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/nikic/php-parser/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 6.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: nunomaduro/larastan
+  description: Larastan - Discover bugs in your code without running it
+  package_url: https://packagist.org/nunomaduro/larastan
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/nunomaduro/collision/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: nyholm/psr7
+  description: A fast PHP7 implementation of PSR-7
+  package_url: https://packagist.org/nyholm/psr7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: orchestra/testbench
+  description: Laravel Testing Helper for Packages Development
+  package_url: https://packagist.org/orchestra/testbench
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/jenssegers/mongodb/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: orchestra/testbench-core
+  description: Testing Helper for Laravel Development
+  package_url: https://packagist.org/orchestra/testbench-core
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: pda/pheanstalk
+  description: PHP client for beanstalkd queue
+  package_url: https://packagist.org/pda/pheanstalk
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phar-io/manifest
+  description: Component for reading phar.io manifest information from a PHP Archive
+  package_url: https://packagist.org/phar-io/manifest
+  version: 2.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phar-io/manifest/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phar-io/version
+  description: Library for handling version information and constraints
+  package_url: https://packagist.org/phar-io/version
+  version: 3.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phar-io/manifest/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: php-amqplib/php-amqplib
+  description: Formerly videlalvaro/php-amqplib
+  package_url: https://packagist.org/php-amqplib/php-amqplib
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: php-console/php-console
+  description: PHP library for Google Chrome extension "PHP Console"
+  package_url: https://packagist.org/php-console/php-console
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: php-coveralls/php-coveralls
+  description: PHP client library for Coveralls API
+  package_url: https://packagist.org/php-coveralls/php-coveralls
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/brick/math/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: php-mock/php-mock
+  description: PHP-Mock can mock built-in PHP functions
+  package_url: https://packagist.org/php-mock/php-mock
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/ramsey/uuid/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: php-mock/php-mock-mockery
+  description: Mock built-in PHP functions
+  package_url: https://packagist.org/php-mock/php-mock-mockery
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/ramsey/uuid/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpbench/phpbench
+  description: PHP Benchmarking Framework
+  package_url: https://packagist.org/phpbench/phpbench
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/doctrine/instantiator/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpdocumentor/reflection
+  description: Reflection library to do Static Analysis for PHP Projects
+  package_url: https://packagist.org/phpdocumentor/reflection
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/phpdocumentor/reflection-common/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpdocumentor/reflection-common
+  description: Common reflection classes used by phpdocumentor to reflect the code
+    structure
+  package_url: https://packagist.org/phpdocumentor/reflection-common
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpdocumentor/reflection-common/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpdocumentor/reflection-docblock
+  description: With this component
+  package_url: https://packagist.org/phpdocumentor/reflection-docblock
+  version: 5.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpdocumentor/reflection-docblock/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpdocumentor/type-resolver
+  description: A PSR-5 based resolver of Class names
+  package_url: https://packagist.org/phpdocumentor/type-resolver
+  version: 1.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpdocumentor/reflection-docblock/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpmd/phpmd
+  description: PHPMD is a spin-off project of PHP Depend and aims to be a PHP equivalent
+    of the well known Java tool PMD
+  package_url: https://packagist.org/phpmd/phpmd
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/nesbot/carbon/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpoption/phpoption
+  description: Option Type for PHP
+  package_url: https://packagist.org/phpoption/phpoption
+  version: 1.8.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/graham-campbell/result-type/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpseclib/phpseclib
+  description: PHP Secure Communications Library - Pure-PHP implementations of RSA
+  package_url: https://packagist.org/phpseclib/phpseclib
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/flysystem/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpspec/phpspec
+  description: Specification-oriented BDD framework for PHP 7.1+
+  package_url: https://packagist.org/phpspec/phpspec
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/phpspec/prophecy/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpspec/prophecy
+  description: Highly opinionated mocking framework for PHP 5.3+
+  package_url: https://packagist.org/phpspec/prophecy
+  version: 1.15.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpspec/prophecy-phpunit
+  description: Integrating the Prophecy mocking library in PHPUnit test cases
+  package_url: https://packagist.org/phpspec/prophecy-phpunit
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/phpunit/phpunit/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpstan/extension-installer
+  description: Composer plugin for automatic installation of PHPStan extensions
+  package_url: https://packagist.org/phpstan/extension-installer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/dragonmantank/cron-expression/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpstan/phpstan
+  description: PHPStan - PHP Static Analysis Tool
+  package_url: https://packagist.org/phpstan/phpstan
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/dflydev/dot-access-data/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpstan/phpstan-deprecation-rules
+  description: PHPStan rules for detecting usage of deprecated classes
+  package_url: https://packagist.org/phpstan/phpstan-deprecation-rules
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/guzzlehttp/psr7/vendor-bin/phpstan/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpstan/phpstan-mockery
+  description: PHPStan Mockery extension
+  package_url: https://packagist.org/phpstan/phpstan-mockery
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/ramsey/collection/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpstan/phpstan-nette
+  description: Nette Framework class reflection extension for PHPStan
+  package_url: https://packagist.org/phpstan/phpstan-nette
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/nette/schema/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpstan/phpstan-phpunit
+  description: PHPUnit extensions and rules for PHPStan
+  package_url: https://packagist.org/phpstan/phpstan-phpunit
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/doctrine/inflector/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpstan/phpstan-strict-rules
+  description: Extra strict and opinionated rules for PHPStan
+  package_url: https://packagist.org/phpstan/phpstan-strict-rules
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/doctrine/inflector/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpstan/phpstan-webmozart-assert
+  description: PHPStan webmozart/assert extension
+  package_url: https://packagist.org/phpstan/phpstan-webmozart-assert
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/dragonmantank/cron-expression/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpunit/php-code-coverage
+  description: Library that provides collection
+  package_url: https://packagist.org/phpunit/php-code-coverage
+  version: 9.2.15
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/php-code-coverage/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpunit/php-file-iterator
+  description: FilterIterator implementation that filters files based on a list of
+    suffixes
+  package_url: https://packagist.org/phpunit/php-file-iterator
+  version: 3.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/hamcrest/hamcrest-php/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpunit/php-invoker
+  description: Invoke callables with a timeout
+  package_url: https://packagist.org/phpunit/php-invoker
+  version: 3.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/php-invoker/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpunit/php-text-template
+  description: Simple template engine
+  package_url: https://packagist.org/phpunit/php-text-template
+  version: 2.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/php-code-coverage/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpunit/php-timer
+  description: Utility class for timing
+  package_url: https://packagist.org/phpunit/php-timer
+  version: 5.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/php-timer/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.18
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: predis/predis
+  description: A flexible and feature-complete Redis client for PHP
+  package_url: https://packagist.org/predis/predis
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: psr/cache
+  description: Common interface for caching libraries
+  package_url: https://packagist.org/psr/cache
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: psr/container
+  description: Common Container Interface
+  package_url: https://packagist.org/psr/container
+  version: 2.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/fakerphp/faker/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: psr/event-dispatcher
+  description: Standard interfaces for event handling
+  package_url: https://packagist.org/psr/event-dispatcher
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/league/commonmark/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: psr/http-client
+  description: Common interface for HTTP clients
+  package_url: https://packagist.org/psr/http-client
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/guzzlehttp/guzzle/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: psr/http-factory
+  description: Common interfaces for PSR-7 HTTP message factories
+  package_url: https://packagist.org/psr/http-factory
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/guzzlehttp/psr7/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: psr/http-message
+  description: Common interface for HTTP messages
+  package_url: https://packagist.org/psr/http-message
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/guzzlehttp/psr7/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: psr/log
+  description: Common interface for logging libraries
+  package_url: https://packagist.org/psr/log
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/filp/whoops/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: psr/simple-cache
+  description: Common interfaces for simple caching
+  package_url: https://packagist.org/psr/simple-cache
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: psy/psysh
+  description: An interactive shell for modern PHP
+  package_url: https://packagist.org/psy/psysh
+  version: 0.11.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/tinker/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: pusher/pusher-php-server
+  description: Library for interacting with the Pusher REST API
+  package_url: https://packagist.org/pusher/pusher-php-server
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: ralouphie/getallheaders
+  description: A polyfill for getallheaders
+  package_url: https://packagist.org/ralouphie/getallheaders
+  version: 3.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/guzzlehttp/psr7/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: ramsey/uuid
+  description: A PHP library for generating and working with universally unique identifiers
+  package_url: https://packagist.org/ramsey/uuid
+  version: 4.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: ramsey/uuid-doctrine
+  description: Use ramsey/uuid as a Doctrine field type
+  package_url: https://packagist.org/ramsey/uuid-doctrine
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/ramsey/uuid/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: rhumsaa/uuid
+  description: NO LONGER MAINTAINED
+  package_url: https://packagist.org/rhumsaa/uuid
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/ramsey/uuid/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: rollbar/rollbar
+  description: Monitors errors and exceptions and reports them to Rollbar
+  package_url: https://packagist.org/rollbar/rollbar
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: ruflin/elastica
+  description: Elasticsearch Client
+  package_url: https://packagist.org/ruflin/elastica
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sabre/dav
+  description: WebDAV Framework for PHP
+  package_url: https://packagist.org/sabre/dav
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/flysystem/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: scrutinizer/ocular
+  description: CLI for uploading external code coverage data
+  package_url: https://packagist.org/scrutinizer/ocular
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/dflydev/dot-access-data/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/code-unit-reverse-lookup
+  description: Looks up which function or method a line of code belongs to
+  package_url: https://packagist.org/sebastian/code-unit-reverse-lookup
+  version: 2.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/php-code-coverage/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/comparator
+  description: Provides the functionality to compare PHP values for equality
+  package_url: https://packagist.org/sebastian/comparator
+  version: 4.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpspec/prophecy/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/diff
+  description: Diff implementation
+  package_url: https://packagist.org/sebastian/diff
+  version: 4.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/phpunit/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/environment
+  description: Provides functionality to handle HHVM/PHP environments
+  package_url: https://packagist.org/sebastian/environment
+  version: 5.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/php-code-coverage/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/exporter
+  description: Provides the functionality to export PHP variables for visualization
+  package_url: https://packagist.org/sebastian/exporter
+  version: 4.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/phpunit/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/global-state
+  description: Snapshotting of global state
+  package_url: https://packagist.org/sebastian/global-state
+  version: 5.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/phpunit/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/object-enumerator
+  description: Traverses array structures and object graphs to enumerate all referenced
+    objects
+  package_url: https://packagist.org/sebastian/object-enumerator
+  version: 4.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/phpunit/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/object-reflector
+  description: Allows reflection of object attributes
+  package_url: https://packagist.org/sebastian/object-reflector
+  version: 2.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/sebastian/global-state/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/recursion-context
+  description: Provides functionality to recursively process PHP variables
+  package_url: https://packagist.org/sebastian/recursion-context
+  version: 4.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpspec/prophecy/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/resource-operations
+  description: Provides a list of PHP built-in functions that operate on resources
+  package_url: https://packagist.org/sebastian/resource-operations
+  version: 3.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/phpunit/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/type
+  description: Collection of value objects that represent the types of the PHP type
+    system
+  package_url: https://packagist.org/sebastian/type
+  version: 2.3.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/phpunit/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: sebastian/version
+  description: Library that helps with managing the version number of Git-hosted PHP
+    projects
+  package_url: https://packagist.org/sebastian/version
+  version: 3.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/php-code-coverage/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: slevomat/coding-standard
+  description: Slevomat Coding Standard for PHP_CodeSniffer complements Consistence
+    Coding Standard by providing sniffs with additional checks
+  package_url: https://packagist.org/slevomat/coding-standard
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/ramsey/collection/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: spatie/phpunit-snapshot-assertions
+  description: Snapshot testing with PHPUnit
+  package_url: https://packagist.org/spatie/phpunit-snapshot-assertions
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/spatie/flare-client-php/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: squizlabs/php_codesniffer
+  description: PHP_CodeSniffer tokenizes PHP
+  package_url: https://packagist.org/squizlabs/php_codesniffer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/dflydev/dot-access-data/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: stripe/stripe-php
+  description: Stripe PHP Library
+  package_url: https://packagist.org/stripe/stripe-php
+  version: 7.117.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
+- name: swiftmailer/swiftmailer
+  description: Swiftmailer, free feature-rich PHP mailer
+  package_url: https://packagist.org/swiftmailer/swiftmailer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/monolog/monolog/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/browser-kit
+  description: Simulates the behavior of a web browser
+  package_url: https://packagist.org/symfony/browser-kit
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/cache
+  description: Provides extended PSR-6, PSR-16
+  package_url: https://packagist.org/symfony/cache
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/config
+  description: Helps you find
+  package_url: https://packagist.org/symfony/config
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/console/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/console
+  description: Eases the creation of beautiful and testable command line interfaces
+  package_url: https://packagist.org/symfony/console
+  version: 6.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/contracts
+  description: A set of abstractions extracted out of the Symfony components
+  package_url: https://packagist.org/symfony/contracts
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/deprecation-contracts/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/css-selector
+  description: Converts CSS selectors to XPath expressions
+  package_url: https://packagist.org/symfony/css-selector
+  version: 6.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/symfony/css-selector/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/dependency-injection
+  description: Allows you to standardize and centralize the way objects are constructed
+    in your application
+  package_url: https://packagist.org/symfony/dependency-injection
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/console/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/doctrine-bridge
+  description: Provides integration for Doctrine with various Symfony components
+  package_url: https://packagist.org/symfony/doctrine-bridge
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/dom-crawler
+  description: Eases DOM navigation for HTML and XML documents
+  package_url: https://packagist.org/symfony/dom-crawler
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/dotenv
+  description: Registers environment variables from a .env file
+  package_url: https://packagist.org/symfony/dotenv
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/console/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/error-handler
+  description: Provides tools to manage errors and ease debugging PHP code
+  package_url: https://packagist.org/symfony/error-handler
+  version: 6.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/event-dispatcher
+  description: Provides tools that allow your application components to communicate
+    with each other by dispatching events and listening to them
+  package_url: https://packagist.org/symfony/event-dispatcher
+  version: 6.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/symfony/console/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/event-dispatcher-contracts
+  description: Generic abstractions related to dispatching event
+  package_url: https://packagist.org/symfony/event-dispatcher-contracts
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/symfony/event-dispatcher-contracts/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/expression-language
+  description: Provides an engine that can compile and evaluate expressions
+  package_url: https://packagist.org/symfony/expression-language
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/event-dispatcher/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/filesystem
+  description: Provides basic utilities for the filesystem
+  package_url: https://packagist.org/symfony/filesystem
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/finder
+  description: Finds files and directories via an intuitive fluent interface
+  package_url: https://packagist.org/symfony/finder
+  version: 6.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/form
+  description: Allows to easily create, process and reuse HTML forms
+  package_url: https://packagist.org/symfony/form
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/http-client
+  description: Provides powerful methods to fetch HTTP resources synchronously or
+    asynchronously
+  package_url: https://packagist.org/symfony/http-client
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/http-client-contracts
+  description: Generic abstractions related to HTTP clients
+  package_url: https://packagist.org/symfony/http-client-contracts
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/http-foundation
+  description: Defines an object-oriented layer for the HTTP specification
+  package_url: https://packagist.org/symfony/http-foundation
+  version: 6.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/fruitcake/php-cors/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/http-kernel
+  description: Provides a structured process for converting a Request into a Response
+  package_url: https://packagist.org/symfony/http-kernel
+  version: 6.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/intl
+  description: Provides a PHP replacement layer for the C intl extension that includes
+    additional data from the ICU library
+  package_url: https://packagist.org/symfony/intl
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/translation/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/lock
+  description: Creates and manages locks
+  package_url: https://packagist.org/symfony/lock
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/console/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/mailer
+  description: Helps sending emails
+  package_url: https://packagist.org/symfony/mailer
+  version: 6.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/messenger
+  description: Helps applications send and receive messages to/from other applications
+    or via message queues
+  package_url: https://packagist.org/symfony/messenger
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/mime
+  description: Allows manipulating MIME messages
+  package_url: https://packagist.org/symfony/mime
+  version: 6.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/phpunit-bridge
+  description: Provides utilities for PHPUnit
+  package_url: https://packagist.org/symfony/phpunit-bridge
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/fakerphp/faker/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/polyfill
+  description: Symfony polyfills backporting features to lower PHP versions
+  package_url: https://packagist.org/symfony/polyfill
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/egulias/email-validator/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/polyfill-ctype
+  description: Symfony polyfill for ctype functions
+  package_url: https://packagist.org/symfony/polyfill-ctype
+  version: 1.25.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/ramsey/uuid/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/polyfill-iconv
+  description: Symfony polyfill for the Iconv extension
+  package_url: https://packagist.org/symfony/polyfill-iconv
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/var-dumper/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/polyfill-intl-grapheme
+  description: Symfony polyfill for intl's grapheme_* functions
+  package_url: https://packagist.org/symfony/polyfill-intl-grapheme
+  version: 1.25.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/symfony/polyfill-intl-grapheme/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/polyfill-intl-icu
+  description: Symfony polyfill for intl's ICU-related data and classes
+  package_url: https://packagist.org/symfony/polyfill-intl-icu
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/translation/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/polyfill-intl-idn
+  description: Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions
+  package_url: https://packagist.org/symfony/polyfill-intl-idn
+  version: 1.25.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/egulias/email-validator/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/polyfill-intl-normalizer
+  description: Symfony polyfill for intl's Normalizer class and related functions
+  package_url: https://packagist.org/symfony/polyfill-intl-normalizer
+  version: 1.25.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/symfony/polyfill-intl-idn/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/polyfill-mbstring
+  description: Symfony polyfill for the Mbstring extension
+  package_url: https://packagist.org/symfony/polyfill-mbstring
+  version: 1.25.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/nesbot/carbon/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/polyfill-php72
+  description: Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions
+  package_url: https://packagist.org/symfony/polyfill-php72
+  version: 1.25.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/symfony/polyfill-intl-idn/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/process
+  description: Executes commands in sub-processes
+  package_url: https://packagist.org/symfony/process
+  version: 6.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/property-access
+  description: Provides functions to read and write from/to an object or array using
+    a simple string notation
+  package_url: https://packagist.org/symfony/property-access
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/mime/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/property-info
+  description: Extracts information about PHP class' properties using metadata of
+    popular sources
+  package_url: https://packagist.org/symfony/property-info
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/mime/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/psr-http-message-bridge
+  description: PSR HTTP message bridge
+  package_url: https://packagist.org/symfony/psr-http-message-bridge
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/routing
+  description: Maps an HTTP request to a set of configuration variables
+  package_url: https://packagist.org/symfony/routing
+  version: 6.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/serializer
+  description: Handles serializing and deserializing data structures
+  package_url: https://packagist.org/symfony/serializer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/error-handler/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/service-contracts
+  description: Generic abstractions related to writing services
+  package_url: https://packagist.org/symfony/service-contracts
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/symfony/console/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/stopwatch
+  description: Provides a way to profile code
+  package_url: https://packagist.org/symfony/stopwatch
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/event-dispatcher/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/translation
+  description: Provides tools to internationalize your application
+  package_url: https://packagist.org/symfony/translation
+  version: 6.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/nesbot/carbon/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/translation-contracts
+  description: Generic abstractions related to translation
+  package_url: https://packagist.org/symfony/translation-contracts
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/twig-bridge
+  description: Provides integration for Twig with various Symfony components
+  package_url: https://packagist.org/symfony/twig-bridge
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/twig-bundle
+  description: Provides a tight integration of Twig into the Symfony full-stack framework
+  package_url: https://packagist.org/symfony/twig-bundle
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/translation/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/validator
+  description: Provides tools to validate values
+  package_url: https://packagist.org/symfony/validator
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/var-dumper
+  description: Provides mechanisms for walking through any arbitrary PHP variable
+  package_url: https://packagist.org/symfony/var-dumper
+  version: 6.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/filp/whoops/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/var-exporter
+  description: Allows exporting any serializable PHP data structure to plain PHP code
+  package_url: https://packagist.org/symfony/var-exporter
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/string/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: symfony/yaml
+  description: Loads and dumps YAML files
+  package_url: https://packagist.org/symfony/yaml
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/league/commonmark/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: theseer/tokenizer
+  description: A small library for converting tokenized PHP source code into XML and
+    potentially other formats
+  package_url: https://packagist.org/theseer/tokenizer
+  version: 1.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/phpunit/php-code-coverage/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: tightenco/collect
+  description: Collect - Illuminate Collections as a separate package
+  package_url: https://packagist.org/tightenco/collect
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: tijsverkoyen/css-to-inline-styles
+  description: CssToInlineStyles is a class that enables you to convert HTML-pages/files
+    into HTML-pages/files with inline styles
+  package_url: https://packagist.org/tijsverkoyen/css-to-inline-styles
+  version: 2.2.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: tracy/tracy
+  description: "\U0001F60E Tracy: the addictive tool to ease debugging PHP code for
+    cool developers"
+  package_url: https://packagist.org/tracy/tracy
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/nette/schema/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: twig/twig
+  description: Twig
+  package_url: https://packagist.org/twig/twig
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/symfony/http-kernel/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: vimeo/psalm
+  description: A static analysis tool for finding errors in PHP applications
+  package_url: https://packagist.org/vimeo/psalm
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: vendor/brick/math/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: vlucas/phpdotenv
+  description: Loads environment variables from `.env` to `getenv
+  package_url: https://packagist.org/vlucas/phpdotenv
+  version: 5.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: voku/portable-ascii
+  description: Portable ASCII library - performance optimized
+  package_url: https://packagist.org/voku/portable-ascii
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/laravel/framework/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: webmozart/assert
+  description: Assertions to validate method input/output with nice error messages
+  package_url: https://packagist.org/webmozart/assert
+  version: 1.10.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.lock
+  detection_source: vendor/dragonmantank/cron-expression/composer.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-04-01 01:02:11.000000000 Z
