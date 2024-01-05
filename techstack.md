@@ -94,7 +94,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [hicmtrex/Click-Shop-Server](https://github.com/hicmtrex/Click-Shop-Server)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|269<br/>Tools used|12/21/23 <br/>Report generated|
+|270<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -495,7 +495,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (224)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (225)</h2>
 
 ## <img width='24' height='24' src='https://img.stackshare.io/package_manager/1778/default_90cb8b66e85ae5b95928b10bb076ab6a27c7e151.png'/> Packagist (224)
 
@@ -725,6 +725,13 @@ Full tech stack [here](/techstack.md)
 |[vlucas/phpdotenv](https://packagist.org/vlucas/phpdotenv)|v5.4.1|04/01/22|Firstname Lastname |N/A|N/A|
 |[voku/portable-ascii](https://packagist.org/voku/portable-ascii)|v2.0.1|04/01/22|Firstname Lastname |N/A|N/A|
 |[webmozart/assert](https://packagist.org/webmozart/assert)|v1.10.0|04/01/22|Firstname Lastname |N/A|N/A|
+
+
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (1)
+
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[laravel-mix](https://www.npmjs.com/laravel-mix)|v6.0.43|03/31/22|Firstname Lastname |MIT|N/A|
 
 <br/>
 <div align='center'>
