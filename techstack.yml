@@ -2,11 +2,11 @@ repo_name: hicmtrex/Click-Shop-Server
 report_id: 7cd04ab0ce34cbf6d0c242e6dfeddff8
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T15:41:38+00:00'
+timestamp: '2024-01-05T08:18:37+00:00'
 requested_by: invalid-email-address
 provider: github
 branch: main
-detected_tools_count: 269
+detected_tools_count: 270
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server
   detection_source: Repo Metadata
 - name: PHP
   description: A popular general-purpose scripting language that is especially suited
@@ -27,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -38,6 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/polyfill-ctype/composer.json
   detection_source: vendor/symfony/polyfill-ctype/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -51,6 +54,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/polyfill-ctype/composer.json
   detection_source: vendor/symfony/polyfill-ctype/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -64,6 +68,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/composer.json
   detection_source: composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-03-31 20:41:48.000000000 Z
@@ -89,6 +94,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-03-31 20:41:48.000000000 Z
@@ -101,6 +107,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -112,6 +119,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -123,6 +131,7 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/composer.json
   detection_source: vendor/league/flysystem/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -134,6 +143,7 @@ tools:
   category: Data Stores
   sub_category: SQL Database as a Service
   image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/docker-compose.yml
   detection_source: vendor/jenssegers/mongodb/docker-compose.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -147,6 +157,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1042/default_86434292d1c55e5f3a3256ca2bc6e2ea62eaca83.jpg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -159,6 +170,7 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/1232/_BKTHxZk.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/uuid/composer.json
   detection_source: vendor/ramsey/uuid/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -170,6 +182,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/app/Models/Order.php
   detection_source: app/Models/Order.php
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-03-31 20:41:48.000000000 Z
@@ -181,6 +194,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/docker-compose.yml
   detection_source: vendor/jenssegers/mongodb/docker-compose.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -193,6 +207,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -204,6 +219,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jean85/pretty-package-versions/codecov.yml
   detection_source: vendor/jean85/pretty-package-versions/codecov.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -216,6 +232,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/1688/New_Project__65_.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/Dockerfile
   detection_source: vendor/jenssegers/mongodb/Dockerfile
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -228,6 +245,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/Dockerfile
   detection_source: vendor/jenssegers/mongodb/Dockerfile
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -240,6 +258,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/docker-compose.yml
   detection_source: vendor/jenssegers/mongodb/docker-compose.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -251,6 +270,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server
   detection_source: Repo Metadata
 - name: Graylog
   description: Open source log management that actually works
@@ -260,6 +280,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/4392/_HU28D42.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -272,6 +293,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine
   image_url: https://img.stackshare.io/service/1207/WtSNwHwK.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/sebastian/environment/composer.json
   detection_source: vendor/sebastian/environment/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -283,6 +305,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -294,6 +317,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/polyfill-ctype/composer.json
   detection_source: vendor/symfony/polyfill-ctype/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -307,6 +331,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/8333/phpst.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/dflydev/dot-access-data/composer.json
   detection_source: vendor/dflydev/dot-access-data/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -332,6 +357,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -344,6 +370,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/2017/a5b5e5e6414e2c07bef76c9d2a29cd46.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/dflydev/dot-access-data/composer.json
   detection_source: vendor/dflydev/dot-access-data/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -357,6 +384,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/docker-compose.yml
   detection_source: vendor/league/flysystem/docker-compose.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -370,6 +398,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/docker-compose.yml
   detection_source: vendor/league/flysystem/docker-compose.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -382,6 +411,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/hamcrest/hamcrest-php/.travis.yml
   detection_source: vendor/hamcrest/hamcrest-php/.travis.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -393,6 +423,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-03-31 20:41:48.000000000 Z
@@ -405,6 +436,7 @@ tools:
   category: Application Hosting
   sub_category: Cloud Hosting
   image_url: https://img.stackshare.io/service/21/Br4cEBV6.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -417,6 +449,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/docker-compose.yml
   detection_source: vendor/league/flysystem/docker-compose.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -429,6 +462,7 @@ tools:
   category: Communications
   sub_category: Email API
   image_url: https://img.stackshare.io/service/240/mPMj_ee5.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/composer.json
   detection_source: vendor/league/flysystem/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -440,6 +474,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/public/robots.txt
   detection_source: public/robots.txt
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-03-31 20:41:48.000000000 Z
@@ -463,6 +498,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/docker-compose.yml
   detection_source: vendor/jenssegers/mongodb/docker-compose.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -471,6 +507,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -479,6 +516,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/1855/61351.jpeg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/docker-compose.yml
   detection_source: vendor/league/flysystem/docker-compose.yml
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -488,6 +526,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/1815/logosf_positif_03_icon_normal.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -499,6 +538,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/sail/runtimes/7.4/Dockerfile
   detection_source: vendor/laravel/sail/runtimes/7.4/Dockerfile
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -522,6 +562,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-03-31 20:41:48.000000000 Z
@@ -533,6 +574,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -544,6 +586,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/fakerphp/faker/composer.json
   detection_source: vendor/fakerphp/faker/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -555,6 +598,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -566,6 +610,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/commonmark/composer.json
   detection_source: vendor/league/commonmark/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -577,6 +622,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/composer.json
   detection_source: vendor/league/flysystem/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -588,6 +634,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/doctrine/instantiator/composer.json
   detection_source: vendor/doctrine/instantiator/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -612,6 +659,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/uuid/composer.json
   detection_source: vendor/ramsey/uuid/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -624,6 +672,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/doctrine/inflector/composer.json
   detection_source: vendor/doctrine/inflector/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -636,6 +685,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/myclabs/deep-copy/composer.json
   detection_source: vendor/myclabs/deep-copy/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -648,6 +698,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/myclabs/deep-copy/composer.json
   detection_source: vendor/myclabs/deep-copy/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -659,6 +710,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -670,6 +722,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/composer.json
   detection_source: vendor/jenssegers/mongodb/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -721,6 +774,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/fakerphp/faker/composer.json
   detection_source: vendor/fakerphp/faker/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -733,6 +787,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/fakerphp/faker/composer.json
   detection_source: vendor/fakerphp/faker/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -771,6 +826,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -782,6 +838,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/commonmark/composer.json
   detection_source: vendor/league/commonmark/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -793,6 +850,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/facade/ignition-contracts/composer.json
   detection_source: vendor/facade/ignition-contracts/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -830,6 +888,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/facade/ignition-contracts/composer.json
   detection_source: vendor/facade/ignition-contracts/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -841,6 +900,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/fakerphp/faker/composer.json
   detection_source: vendor/fakerphp/faker/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -852,6 +912,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/composer.json
   detection_source: vendor/league/flysystem/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -863,6 +924,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/composer.json
   detection_source: vendor/league/flysystem/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -875,6 +937,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -926,6 +989,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/composer.json
   detection_source: vendor/league/flysystem/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -950,6 +1014,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/psy/psysh/composer.json
   detection_source: vendor/psy/psysh/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -961,6 +1026,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/guzzlehttp/psr7/composer.json
   detection_source: vendor/guzzlehttp/psr7/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -972,6 +1038,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -983,6 +1050,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -994,6 +1062,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1005,6 +1074,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1016,6 +1086,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1027,6 +1098,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1038,6 +1110,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/composer.json
   detection_source: vendor/jenssegers/mongodb/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1049,6 +1122,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1060,6 +1134,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1071,6 +1146,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/composer.json
   detection_source: vendor/jenssegers/mongodb/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1082,6 +1158,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1093,6 +1170,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/composer.json
   detection_source: vendor/jenssegers/mongodb/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1104,6 +1182,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1115,6 +1194,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1126,6 +1206,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1137,6 +1218,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1148,6 +1230,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1159,6 +1242,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1170,6 +1254,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1181,6 +1266,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1192,6 +1278,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1203,6 +1290,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1214,6 +1302,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1225,6 +1314,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1236,6 +1326,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/composer.json
   detection_source: vendor/jenssegers/mongodb/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1247,6 +1338,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1258,6 +1350,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1269,6 +1362,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1280,6 +1374,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/collection/composer.json
   detection_source: vendor/ramsey/collection/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1317,6 +1412,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/nesbot/carbon/composer.json
   detection_source: vendor/nesbot/carbon/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1381,6 +1477,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1392,6 +1489,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1403,6 +1501,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/commonmark/composer.json
   detection_source: vendor/league/commonmark/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1415,6 +1514,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/composer.json
   detection_source: vendor/league/flysystem/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1465,6 +1565,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/uuid/composer.json
   detection_source: vendor/ramsey/uuid/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1477,6 +1578,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/dragonmantank/cron-expression/composer.json
   detection_source: vendor/dragonmantank/cron-expression/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1514,6 +1616,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/nette/utils/composer.json
   detection_source: vendor/nette/utils/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1539,6 +1642,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/nette/schema/composer.json
   detection_source: vendor/nette/schema/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1590,6 +1694,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/nunomaduro/collision/composer.json
   detection_source: vendor/nunomaduro/collision/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1601,6 +1706,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1612,6 +1718,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/jenssegers/mongodb/composer.json
   detection_source: vendor/jenssegers/mongodb/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1623,6 +1730,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1634,6 +1742,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1671,6 +1780,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1682,6 +1792,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1693,6 +1804,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/brick/math/composer.json
   detection_source: vendor/brick/math/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1704,6 +1816,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/uuid/composer.json
   detection_source: vendor/ramsey/uuid/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1715,6 +1828,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/uuid/composer.json
   detection_source: vendor/ramsey/uuid/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1726,6 +1840,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/doctrine/instantiator/composer.json
   detection_source: vendor/doctrine/instantiator/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1737,6 +1852,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/phpdocumentor/reflection-common/composer.json
   detection_source: vendor/phpdocumentor/reflection-common/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1789,6 +1905,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/nesbot/carbon/composer.json
   detection_source: vendor/nesbot/carbon/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1813,6 +1930,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/composer.json
   detection_source: vendor/league/flysystem/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1824,6 +1942,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/phpspec/prophecy/composer.json
   detection_source: vendor/phpspec/prophecy/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1848,6 +1967,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/phpunit/phpunit/composer.json
   detection_source: vendor/phpunit/phpunit/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1859,6 +1979,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/dragonmantank/cron-expression/composer.json
   detection_source: vendor/dragonmantank/cron-expression/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1870,6 +1991,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/dflydev/dot-access-data/composer.json
   detection_source: vendor/dflydev/dot-access-data/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1881,6 +2003,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/guzzlehttp/psr7/vendor-bin/phpstan/composer.json
   detection_source: vendor/guzzlehttp/psr7/vendor-bin/phpstan/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1892,6 +2015,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/collection/composer.json
   detection_source: vendor/ramsey/collection/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1903,6 +2027,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/nette/schema/composer.json
   detection_source: vendor/nette/schema/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1914,6 +2039,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/doctrine/inflector/composer.json
   detection_source: vendor/doctrine/inflector/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1925,6 +2051,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/doctrine/inflector/composer.json
   detection_source: vendor/doctrine/inflector/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -1936,6 +2063,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/dragonmantank/cron-expression/composer.json
   detection_source: vendor/dragonmantank/cron-expression/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2026,6 +2154,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2037,6 +2166,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2152,6 +2282,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2189,6 +2320,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/uuid/composer.json
   detection_source: vendor/ramsey/uuid/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2200,6 +2332,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/uuid/composer.json
   detection_source: vendor/ramsey/uuid/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2211,6 +2344,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2222,6 +2356,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2233,6 +2368,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/flysystem/composer.json
   detection_source: vendor/league/flysystem/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2244,6 +2380,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/dflydev/dot-access-data/composer.json
   detection_source: vendor/dflydev/dot-access-data/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2415,6 +2552,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/ramsey/collection/composer.json
   detection_source: vendor/ramsey/collection/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2426,6 +2564,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/spatie/flare-client-php/composer.json
   detection_source: vendor/spatie/flare-client-php/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2437,6 +2576,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/dflydev/dot-access-data/composer.json
   detection_source: vendor/dflydev/dot-access-data/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2461,6 +2601,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/monolog/monolog/composer.json
   detection_source: vendor/monolog/monolog/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2472,6 +2613,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2483,6 +2625,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2494,6 +2637,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/console/composer.json
   detection_source: vendor/symfony/console/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2518,6 +2662,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/deprecation-contracts/composer.json
   detection_source: vendor/symfony/deprecation-contracts/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2543,6 +2688,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/console/composer.json
   detection_source: vendor/symfony/console/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2554,6 +2700,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2565,6 +2712,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2576,6 +2724,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/console/composer.json
   detection_source: vendor/symfony/console/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2627,6 +2776,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/event-dispatcher/composer.json
   detection_source: vendor/symfony/event-dispatcher/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2638,6 +2788,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2662,6 +2813,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2674,6 +2826,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2685,6 +2838,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2723,6 +2877,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/translation/composer.json
   detection_source: vendor/symfony/translation/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2734,6 +2889,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/console/composer.json
   detection_source: vendor/symfony/console/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2759,6 +2915,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2783,6 +2940,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/fakerphp/faker/composer.json
   detection_source: vendor/fakerphp/faker/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2794,6 +2952,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/egulias/email-validator/composer.json
   detection_source: vendor/egulias/email-validator/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2818,6 +2977,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/var-dumper/composer.json
   detection_source: vendor/symfony/var-dumper/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2842,6 +3002,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/translation/composer.json
   detection_source: vendor/symfony/translation/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2919,6 +3080,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/mime/composer.json
   detection_source: vendor/symfony/mime/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2931,6 +3093,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/mime/composer.json
   detection_source: vendor/symfony/mime/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2942,6 +3105,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2966,6 +3130,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/error-handler/composer.json
   detection_source: vendor/symfony/error-handler/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -2990,6 +3155,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/event-dispatcher/composer.json
   detection_source: vendor/symfony/event-dispatcher/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3027,6 +3193,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3038,6 +3205,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/translation/composer.json
   detection_source: vendor/symfony/translation/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3049,6 +3217,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3073,6 +3242,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/string/composer.json
   detection_source: vendor/symfony/string/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3084,6 +3254,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/league/commonmark/composer.json
   detection_source: vendor/league/commonmark/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3109,6 +3280,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/laravel/framework/composer.json
   detection_source: vendor/laravel/framework/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3135,6 +3307,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/nette/schema/composer.json
   detection_source: vendor/nette/schema/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3146,6 +3319,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/symfony/http-kernel/composer.json
   detection_source: vendor/symfony/http-kernel/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3157,6 +3331,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/vendor/brick/math/composer.json
   detection_source: vendor/brick/math/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
@@ -3199,3 +3374,17 @@ tools:
   detection_source: vendor/dragonmantank/cron-expression/composer.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-01 01:02:11.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 6.0.43
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/hicmtrex/Click-Shop-Server/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2022-03-31 20:41:48.000000000 Z
