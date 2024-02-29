@@ -3,42 +3,42 @@
 ## Tech Stack
 hicmtrex/Click-Shop-Server is built on the following main stack:
 
-- [ElasticHosts Cloud Servers](https://www.elastichosts.com) – Cloud Hosting
-- [Context.IO](http://context.io) – Email API
-- [PHP](http://www.php.net/) – Languages
-- [Laravel](http://laravel.com/) – Frameworks (Full Stack)
-- [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- [MySQL](http://www.mysql.com) – Databases
-- [MongoDB](http://www.mongodb.com/) – Databases
-- [Redis](http://redis.io/) – In-Memory Databases
-- [CouchDB](http://couchdb.apache.org/) – Databases
-- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- [Symfony](http://symfony.com/) – Frameworks (Full Stack)
-- [HHVM (HipHop Virtual Machine)](http://hhvm.com/) – Virtual Machine
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Doctrine 2](http://www.doctrine-project.org/) – Object Relational Mapper (ORM)
-- [Terraform](https://www.terraform.io/) – Server Configuration and Automation
-- [PHPUnit](https://phpunit.de/) – Testing Frameworks
-- [Twig](https://twig.symfony.com/) – Frameworks (Full Stack)
-- [Logstash](http://logstash.net/) – Log Management
-- [Composer](https://getcomposer.org/) – Package Managers
-- [Scrutinizer](https://scrutinizer-ci.com/) – Code Review
-- [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- [PHP](http://www.php.net/) – Languages
+- [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
+- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
 - [Guzzle](http://guzzlephp.org/) – Microframeworks (Backend)
-- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- [Codecov](https://codecov.io/) – Code Coverage
-- [Docker Compose](https://github.com/docker/compose) – Container Tools
+- [Laravel](http://laravel.com/) – Frameworks (Full Stack)
 - [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
-- [PhpSpec](http://www.phpspec.net/en/latest/) – Testing Frameworks
-- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- [Graylog](https://www.graylog.org/) – Log Management
-- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- [PHPStan](https://github.com/phpstan/phpstan) – Code Review
+- [Symfony](http://symfony.com/) – Frameworks (Full Stack)
+- [Twig](https://twig.symfony.com/) – Frameworks (Full Stack)
+- [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
 - [Cloud DB for Mysql](https://www.ncloud.com/product/database/cloudDbMysql) – SQL Database as a Service
-- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [CouchDB](http://couchdb.apache.org/) – Databases
+- [Doctrine 2](http://www.doctrine-project.org/) – Object Relational Mapper (ORM)
+- [MongoDB](http://www.mongodb.com/) – Databases
+- [MySQL](http://www.mysql.com) – Databases
+- [Redis](http://redis.io/) – In-Memory Databases
+- [Codecov](https://codecov.io/) – Code Coverage
+- [Composer](https://getcomposer.org/) – Package Managers
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Docker Compose](https://github.com/docker/compose) – Container Tools
+- [Graylog](https://www.graylog.org/) – Log Management
+- [HHVM (HipHop Virtual Machine)](http://hhvm.com/) – Virtual Machine
+- [Logstash](http://logstash.net/) – Log Management
+- [PHPStan](https://github.com/phpstan/phpstan) – Code Review
+- [PHPUnit](https://phpunit.de/) – Testing Frameworks
+- [PhpSpec](http://www.phpspec.net/en/latest/) – Testing Frameworks
+- [Scrutinizer](https://scrutinizer-ci.com/) – Code Review
+- [Terraform](https://www.terraform.io/) – Server Configuration and Automation
+- [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [ElasticHosts Cloud Servers](https://www.elastichosts.com) – Cloud Hosting
+- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- [Context.IO](http://context.io) – Email API
+- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -48,42 +48,42 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 hicmtrex/Click-Shop-Server is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/21/Br4cEBV6.png' alt='ElasticHosts Cloud Servers'/> [ElasticHosts Cloud Servers](https://www.elastichosts.com) – Cloud Hosting
-- <img width='25' height='25' src='https://img.stackshare.io/service/240/mPMj_ee5.png' alt='Context.IO'/> [Context.IO](http://context.io) – Email API
-- <img width='25' height='25' src='https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg' alt='PHP'/> [PHP](http://www.php.net/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg' alt='Laravel'/> [Laravel](http://laravel.com/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1042/default_86434292d1c55e5f3a3256ca2bc6e2ea62eaca83.jpg' alt='CouchDB'/> [CouchDB](http://couchdb.apache.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1197/logosf_positif_03_icon.png' alt='Symfony'/> [Symfony](http://symfony.com/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1207/WtSNwHwK.png' alt='HHVM (HipHop Virtual Machine)'/> [HHVM (HipHop Virtual Machine)](http://hhvm.com/) – Virtual Machine
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1232/_BKTHxZk.png' alt='Doctrine 2'/> [Doctrine 2](http://www.doctrine-project.org/) – Object Relational Mapper (ORM)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png' alt='Terraform'/> [Terraform](https://www.terraform.io/) – Server Configuration and Automation
-- <img width='25' height='25' src='https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg' alt='PHPUnit'/> [PHPUnit](https://phpunit.de/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png' alt='Twig'/> [Twig](https://twig.symfony.com/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1683/preview.png' alt='Logstash'/> [Logstash](http://logstash.net/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/1688/New_Project__65_.png' alt='Composer'/> [Composer](https://getcomposer.org/) – Package Managers
-- <img width='25' height='25' src='https://img.stackshare.io/service/2017/a5b5e5e6414e2c07bef76c9d2a29cd46.png' alt='Scrutinizer'/> [Scrutinizer](https://scrutinizer-ci.com/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/2099/azureStorage.png' alt='Azure Storage'/> [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- <img width='25' height='25' src='https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg' alt='PHP'/> [PHP](http://www.php.net/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/2350/638632.png' alt='Guzzle'/> [Guzzle](http://guzzlephp.org/) – Microframeworks (Backend)
-- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png' alt='Codecov'/> [Codecov](https://codecov.io/) – Code Coverage
-- <img width='25' height='25' src='https://img.stackshare.io/service/3136/docker-compose.png' alt='Docker Compose'/> [Docker Compose](https://github.com/docker/compose) – Container Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg' alt='Laravel'/> [Laravel](http://laravel.com/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png' alt='PhpSpec'/> [PhpSpec](http://www.phpspec.net/en/latest/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/4392/_HU28D42.png' alt='Graylog'/> [Graylog](https://www.graylog.org/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/8333/phpst.png' alt='PHPStan'/> [PHPStan](https://github.com/phpstan/phpstan) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/1197/logosf_positif_03_icon.png' alt='Symfony'/> [Symfony](http://symfony.com/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png' alt='Twig'/> [Twig](https://twig.symfony.com/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/2099/azureStorage.png' alt='Azure Storage'/> [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
 - <img width='25' height='25' src='https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png' alt='Cloud DB for Mysql'/> [Cloud DB for Mysql](https://www.ncloud.com/product/database/cloudDbMysql) – SQL Database as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/1042/default_86434292d1c55e5f3a3256ca2bc6e2ea62eaca83.jpg' alt='CouchDB'/> [CouchDB](http://couchdb.apache.org/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1232/_BKTHxZk.png' alt='Doctrine 2'/> [Doctrine 2](http://www.doctrine-project.org/) – Object Relational Mapper (ORM)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png' alt='Codecov'/> [Codecov](https://codecov.io/) – Code Coverage
+- <img width='25' height='25' src='https://img.stackshare.io/service/1688/New_Project__65_.png' alt='Composer'/> [Composer](https://getcomposer.org/) – Package Managers
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3136/docker-compose.png' alt='Docker Compose'/> [Docker Compose](https://github.com/docker/compose) – Container Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4392/_HU28D42.png' alt='Graylog'/> [Graylog](https://www.graylog.org/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/1207/WtSNwHwK.png' alt='HHVM (HipHop Virtual Machine)'/> [HHVM (HipHop Virtual Machine)](http://hhvm.com/) – Virtual Machine
+- <img width='25' height='25' src='https://img.stackshare.io/service/1683/preview.png' alt='Logstash'/> [Logstash](http://logstash.net/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/8333/phpst.png' alt='PHPStan'/> [PHPStan](https://github.com/phpstan/phpstan) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg' alt='PHPUnit'/> [PHPUnit](https://phpunit.de/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png' alt='PhpSpec'/> [PhpSpec](http://www.phpspec.net/en/latest/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2017/a5b5e5e6414e2c07bef76c9d2a29cd46.png' alt='Scrutinizer'/> [Scrutinizer](https://scrutinizer-ci.com/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png' alt='Terraform'/> [Terraform](https://www.terraform.io/) – Server Configuration and Automation
+- <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/21/Br4cEBV6.png' alt='ElasticHosts Cloud Servers'/> [ElasticHosts Cloud Servers](https://www.elastichosts.com) – Cloud Hosting
+- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/240/mPMj_ee5.png' alt='Context.IO'/> [Context.IO](http://context.io) – Email API
+- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -94,7 +94,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [hicmtrex/Click-Shop-Server](https://github.com/hicmtrex/Click-Shop-Server)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|270<br/>Tools used|01/05/24 <br/>Report generated|
+|270<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
